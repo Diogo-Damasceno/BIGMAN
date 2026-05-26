@@ -1,0 +1,36 @@
+{
+  "name": "bigman-barber-whatsapp",
+  "version": "1.0.0",
+  "description": "Sistema de atendimento automático via WhatsApp para a BIG MAN Barber Shop",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "chatbot",
+    "barbershop",
+    "gemini",
+    "supabase"
+  ],
+  "author": "BIG MAN Barber Shop",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
