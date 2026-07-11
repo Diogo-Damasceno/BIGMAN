@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
+    "test": "node --test",
     "test:health": "node test-webhook.js health",
     "test:verify": "node test-webhook.js verify",
     "test:message": "node test-webhook.js message"
